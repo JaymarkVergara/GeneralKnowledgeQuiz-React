@@ -1,0 +1,77 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App h1{
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.MainMenu, .Quiz, .gameover{
+  width: 600px;
+  height: 400px;
+  display: flex;
+  background-color: green;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient( to  right, #5C4AB5, #A3B54A);
+  border: 3px solid black;
+  padding: 25px;
+}
+
+.start-btn{
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.Choices{
+  display: flex;
+  flex-direction: column;
+}
+
+.Choices button{
+  background-color: black;
+  color: white;
+  border: none;
+  margin: 5px;
+  width: 200px;
+  font-size: 18px;
+  padding: 10px 10px;
+}
+
+.Choices button:hover, .start-btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.qbutton, .gameover button{
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  border: none;
+  margin: 5px;
+  font-size: 20px;
+  width: 150px;
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.qbutton:hover, .gameover button:hover{
+  color: white;
+  background-color: red;
+}
+
